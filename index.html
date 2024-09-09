@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Web Sederhana</title>
+    <style>
+      body {
+        background: url("https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      }
+      .fade {
+        transition: opacity 0.5s ease-in-out;
+        opacity: 1;
+      }
+      .fade.hidden {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-size: cover;
+      background-position: center;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    ">
+    <nav>
+      <div style="text-align: end; background-color: #212121; padding: 20px">
+        <a
+          href="#"
+          style="
+            background-color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+          "
+          >Home</a
+        >
+        <a
+          href="#"
+          style="
+            background-color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+          "
+          >Artikel</a
+        >
+        <a
+          href="#"
+          style="
+            background-color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+          "
+          >Tentang Kami</a
+        >
+        <a
+          href="#"
+          style="
+            background-color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+          "
+          >Kontak</a
+        >
+      </div>
+    </nav>
+    <header>
+      <h1 style="text-align: center">Pemrogramman</h1>
+    </header>
+
+    <div style="display: flex; justify-content: center">
+      <div
+        style="
+          border: 1px solid;
+          border-radius: 20px;
+          background-color: #212121;
+          padding: 20px;
+          margin-top: 30px;
+          width: 70%;
+          display: flex;
+          justify-content: space-between;
+        ">
+        <article
+          style="
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: large;
+            width: 40%;
+          ">
+          <h1>Pengertian</h1>
+          <p>
+            <span style="background-color: rgb(255, 255, 141)"
+              >Pemrograman adalah proses menulis kode</span
+            >
+            untuk memberi tahu komputer bagaimana melakukan tugas tertentu.
+            Proses ini melibatkan kolaborasi antara manusia dan komputer, di
+            mana manusia membuat instruksi dalam bahasa yang dapat dipahami
+            komputer.
+          </p>
+        </article>
+
+        <article
+          style="
+            color: white;
+            padding-left: 15px;
+            width: 40%;
+            font-size: large;
+          ">
+          <h2>Bahasa Pemrograman</h2>
+          <p>
+            Bahasa pemrograman adalah kumpulan aturan dan sintaksis yang
+            digunakan untuk memberikan instruksi kepada komputer agar
+            menjalankan fungsi tertentu.
+            <span style="background-color: rgb(255, 255, 141); color: black;"
+              >Bahasa pemrograman merupakan sistem komunikasi antara manusia dan
+              mesin</span
+            >
+            yang memungkinkan pengembang untuk menulis kode yang dapat dipahami
+            oleh komputer.
+          </p>
+        </article>
+
+        <div
+          style="
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: whitesmoke;
+            border-radius: 10px;
+          ">
+          <img
+            class="php"
+            src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+            width="90px"
+            style="padding: 10px" />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png"
+            style="width: 90px; padding: 10px; border-radius: 20px" />
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <div
+        style="
+          border: 1px solid;
+          border-radius: 20px;
+          background-color: #212121;
+          padding: 20px;
+          margin-top: 30px;
+          width: 70%;
+          display: flex;
+          justify-content: space-between;
+        ">
+        <article
+          style="
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 16px;
+            width: 80%;
+          ">
+          <h1 style="margin: 0">Sejarah Penemu Bahasa Pemrograman</h1>
+          <p>
+            Augusta Ada King, Countess Lovelace (10 Desember 1815 – 27 November
+            1852), lahir dengan nama Augusta Ada Byron dan sekarang dikenal
+            dengan nama Ada Lovelace, adalah penulis dan matematikawan Inggris
+            yang terkenal atas karyanya berupa komputer mekanika pertama.
+            Penemuannya atas mesin ini juga termasuk penggunaan algoritme
+            pertama yang dimaksudkan untuk di proses oleh mesin. Atas karyanya
+            ini, ia sering dianggap sebagai programer komputer pertama di dunia.
+          </p>
+        </article>
+        <img
+          class="sejarah fade"
+          src="https://www.sman1kalasan.sch.id/wp-content/uploads/2023/02/ada_lovelace.jpg"
+          height="150px"
+          style="border-radius: 10px" />
+      </div>
+    </div>
+
+    <footer
+      style="
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: auto;
+      ">
+      <p>&copy;2024 Abdi Prayuda Hidayat TI-3C.</p>
+    </footer>
+    <script src="iseng.js"></script>
+  </body>
+</html>
